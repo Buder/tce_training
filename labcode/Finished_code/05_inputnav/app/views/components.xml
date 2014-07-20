@@ -18,6 +18,7 @@
 			    <Row title="orange"/>
 			  </Column>
 			</Picker>
+			<Label id="values"></Label>
 		</Window>
 	</Tab>
 </Alloy>
