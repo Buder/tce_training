@@ -1,0 +1,7 @@
+<Alloy>
+	<NavigationWindow id="main">
+		<Window id="win1" class="container" title="Memory Leaks">
+			<Button id="openBtn">Open leaky window</Button>
+		</Window>
+	</NavigationWindow>
+</Alloy>

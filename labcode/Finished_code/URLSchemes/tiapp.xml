@@ -29,19 +29,21 @@
         </orientations>
     </iphone>
     <ios>
-    	<plist><dict>
-        <key>CFBundleURLTypes</key>
-        <array>
+        <plist>
             <dict>
-                <key>CFBundleURLName</key>
-                <string>com.appcelerator.urlschemes</string>
-                <key>CFBundleURLSchemes</key>
+                <key>CFBundleURLTypes</key>
                 <array>
-                    <string>Urlschemes</string>
+                    <dict>
+                        <key>CFBundleURLName</key>
+                        <string>com.appcelerator.urlschemes</string>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <string>Urlschemes</string>
+                        </array>
+                    </dict>
                 </array>
             </dict>
-        </array>
-    </dict></plist>
+        </plist>
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest>
@@ -95,7 +97,7 @@
         <target device="iphone">true</target>
         <target device="mobileweb">true</target>
     </deployment-targets>
-    <sdk-version>3.2.0.GA</sdk-version>
+    <sdk-version>3.3.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
